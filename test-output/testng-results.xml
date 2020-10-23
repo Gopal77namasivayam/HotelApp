@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-22T21:39:59 IST" name="Default suite" finished-at="2020-10-22T21:40:44 IST" duration-ms="44524">
+    <groups>
+    </groups>
+    <test started-at="2020-10-22T21:39:59 IST" name="Default test" finished-at="2020-10-22T21:40:44 IST" duration-ms="44524">
+      <class name="com.Hotel.qa.testcases.BookingConfirmationPageTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:39:59 IST" name="setExtent" finished-at="2020-10-22T21:40:00 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:00 IST" name="setUp" finished-at="2020-10-22T21:40:37 IST" duration-ms="36730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateOrderNoConfirmationPage()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:37 IST" name="validateOrderNoConfirmationPage" finished-at="2020-10-22T21:40:42 IST" duration-ms="5214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderNoConfirmationPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:42 IST" name="tearDown" finished-at="2020-10-22T21:40:43 IST" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateOrderNoConfirmationPage status=SUCCESS method=BookingConfirmationPageTest.validateOrderNoConfirmationPage()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:43 IST" name="endReport" finished-at="2020-10-22T21:40:44 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Hotel.qa.testcases.BookingConfirmationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
