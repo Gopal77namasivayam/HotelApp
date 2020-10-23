@@ -3,6 +3,7 @@ package com.Hotel.qa.testcases;
 import java.io.IOException;
 import java.text.ParseException;
 
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -25,10 +26,8 @@ public class MyItineraryPageTest extends BaseTestHotel {
 	BookHotelPage bookHotel;
 	BookingConfirmationPage confirmpage;
 	MyItineraryPage ItineraryPage;
-	
-	
-	public MyItineraryPageTest()
-	{
+
+	public MyItineraryPageTest() {
 		super();
 	}
 
@@ -37,13 +36,15 @@ public class MyItineraryPageTest extends BaseTestHotel {
 		initialtion();
 		hotellogin = new LoginPageHotel();
 		hotHomPage = hotellogin.hotelLogin(prob.getProperty("hotelusername"), prob.getProperty("hotelpassword"));
-		hotelPageDetails =hotHomPage.checkSelecetdHotelname("Brisbane", "Hotel Creek", "Double", "3 - Three","24/10/2020", "27/10/2020", "2 - Two", "4 - Four");
-		 
-		bookHotel=hotelPageDetails.verifyHotelSelection();
-		confirmpage=bookHotel.verifyBooknowclick("Gopal","Namasivayam","AnnaNagar,Chennai","7645764576457645","VISA","March","2022","2345");
-		ItineraryPage=confirmpage.verifyMyitinery();
+		hotelPageDetails = hotHomPage.checkSelecetdHotelname("Brisbane", "Hotel Creek", "Double", "3 - Three",
+				"24/10/2020", "27/10/2020", "2 - Two", "4 - Four");
+
+		bookHotel = hotelPageDetails.verifyHotelSelection();
+		confirmpage = bookHotel.verifyBooknowclick("Gopal", "Namasivayam", "AnnaNagar,Chennai", "7645764576457645",
+				"VISA", "March", "2022", "2345");
+		ItineraryPage = confirmpage.verifyMyitinery();
 	}
-	
+
 	@BeforeTest
 	public void setExtent() {
 
@@ -55,40 +56,24 @@ public class MyItineraryPageTest extends BaseTestHotel {
 	public void endReport() {
 		endExtendReport();
 	}
-	
+
 	@Test
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public void validateItineryfieldsnoteditable() {
+
+		test = reports.createTest("validateItineryfieldsnoteditable");
+//		int HotelTotalDaysConfirmationpage = confirmpage.verifyNoOfRoomsInBookCoinfimPage();
+//		System.out.println("Totaldays in confirmation page: " + HotelTotalDaysConfirmationpage);
+//
+//		System.out.println("Totaldays in booking page :" + BookHotelPage.TodalDaysInBookPage1);
+//		Assert.assertEquals(HotelTotalDaysConfirmationpage, BookHotelPage.TodalDaysInBookPage1);
+	}
+
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
 
 		close(result);
-	
-	
+
 	}
-	
+
 }
