@@ -68,6 +68,7 @@ public class MyItineraryPageTest extends BaseTestHotel {
 //		System.out.println("Totaldays in booking page :" + BookHotelPage.TodalDaysInBookPage1);
 //		Assert.assertEquals(HotelTotalDaysConfirmationpage, BookHotelPage.TodalDaysInBookPage1);
 		//System.out.println("pull tesing");
+		//tesing again
 	}
 
 	@AfterMethod
