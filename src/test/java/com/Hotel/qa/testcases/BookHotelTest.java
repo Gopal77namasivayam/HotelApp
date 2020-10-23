@@ -102,7 +102,7 @@ public class BookHotelTest extends BaseTestHotel {
 		System.out.println(SelectHotelPage.PriceperNight);
 		Assert.assertEquals(SelectHotelPage.PriceperNight,pricePerNight);
 	}
-	@Test
+	@Test(enabled=false)
 	public void validateTotalPrice()
 	{
 		test = reports.createTest("validateTotalPrice");
@@ -123,7 +123,7 @@ public class BookHotelTest extends BaseTestHotel {
 		Assert.assertEquals(BookHotelPage.GSTinBookPage,totPrice);
 	}
 	
-	@Test(enabled=false)
+	@Test
 	public void validateFinalprice()
 	{
 

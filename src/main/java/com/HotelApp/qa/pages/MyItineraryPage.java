@@ -1,5 +1,9 @@
 package com.HotelApp.qa.pages;
 
-public class MyItineraryPage {
+import com.freecrm.qa.base.BaseTestHotel;
+
+public class MyItineraryPage extends BaseTestHotel {
+	
+	
 
 }

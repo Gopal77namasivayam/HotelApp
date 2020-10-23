@@ -9,10 +9,10 @@
     <classes>
       <class name="com.freecrm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="imgExistsTest"/>
           <include name="setExtent"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
           <include name="endReport"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->

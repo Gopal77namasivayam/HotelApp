@@ -1,0 +1,11 @@
+com\Hotel\qa\testcases\BookingConfirmationPageTest.class
+com\Hotel\qa\testcases\HotelHomePageTest.class
+com\freecrm\qa\testcases\CreateNewContactPageTest.class
+com\Hotel\qa\testcases\SelectedHotelPageTest.class
+com\freecrm\qa\testcases\DealsPageTest.class
+com\freecrm\qa\testcases\PageTestExperiment.class
+com\Hotel\qa\testcases\MyItineraryPageTest.class
+com\freecrm\qa\testcases\ContactPageTest.class
+com\freecrm\qa\testcases\HomePageTest.class
+com\freecrm\qa\testcases\LoginPageTest.class
+com\Hotel\qa\testcases\BookHotelTest.class

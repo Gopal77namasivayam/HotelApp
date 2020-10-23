@@ -25,7 +25,7 @@ public class LoginPage extends Base {
 		@FindBy(xpath="//a[contains(text(),'Sign Up')]")
 		WebElement SignUpBtn;
 		
-		@FindBy(xpath="//img[@class='img-responsive123']")
+		@FindBy(xpath="//img[@class='img-responsive']")
 		WebElement crmLogo;
 		// Initalizing 
 		public LoginPage() throws IOException

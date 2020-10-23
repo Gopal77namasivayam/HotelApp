@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [crm regrssion suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="com.freecrm.qa.util.TransformSuccess"/>
+    <listener class-name="com.freecrm.qa.extentreportListeners.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="crm regression(failed)" verbose="10">
     <classes>
-      <class name="com.Hotel.qa.testcases.BookingConfirmationPageTest">
+      <class name="com.freecrm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="imgExistsTest"/>
           <include name="setExtent"/>
-          <include name="validateFinalPriceConfirmationPage"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
           <include name="endReport"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.Hotel.qa.testcases.BookingConfirmationPageTest -->
+      </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- crm regression(failed) -->
+</suite> <!-- Failed suite [crm regrssion suite] -->

@@ -37,7 +37,7 @@ public class SelectedHotelPageTest extends BaseTestHotel {
 		hotHomPage = hotellogin.hotelLogin(prob.getProperty("hotelusername"), prob.getProperty("hotelpassword"));
 		hotelPageDetails = hotHomPage.checkSelecetdHotelname("Brisbane", "Hotel Creek", "Super Deluxe", "3 - Three",
 				"24/10/2020", "28/10/2020", "2 - Two", "4 - Four");
-		bookHotel=hotelPageDetails.verifyHotelSelection();
+		//bookHotel=hotelPageDetails.verifyHotelSelection();
 	}
 
 	@BeforeTest

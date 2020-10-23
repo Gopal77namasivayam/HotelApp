@@ -27,7 +27,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.2</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -76,6 +76,11 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.13.3</version>
 		</dependency>
+		<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
 
 	</dependencies>
 
@@ -98,7 +103,7 @@
 				<configuration>
 					<printSummary>true</printSummary>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src\main\resources\smoketestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

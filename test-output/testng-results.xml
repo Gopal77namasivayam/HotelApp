@@ -1,40 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-22T21:39:59 IST" name="Default suite" finished-at="2020-10-22T21:40:44 IST" duration-ms="44524">
+  <suite started-at="2020-10-23T23:08:28 IST" name="Default suite" finished-at="2020-10-23T23:09:47 IST" duration-ms="79270">
     <groups>
     </groups>
-    <test started-at="2020-10-22T21:39:59 IST" name="Default test" finished-at="2020-10-22T21:40:44 IST" duration-ms="44524">
-      <class name="com.Hotel.qa.testcases.BookingConfirmationPageTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:39:59 IST" name="setExtent" finished-at="2020-10-22T21:40:00 IST" duration-ms="572" status="PASS">
+    <test started-at="2020-10-23T23:08:28 IST" name="Default test" finished-at="2020-10-23T23:09:47 IST" duration-ms="79270">
+      <class name="com.freecrm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:08:28 IST" name="setExtent" finished-at="2020-10-23T23:08:28 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:00 IST" name="setUp" finished-at="2020-10-22T21:40:37 IST" duration-ms="36730" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:08:29 IST" name="setUp" finished-at="2020-10-23T23:08:51 IST" duration-ms="22650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateOrderNoConfirmationPage()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:37 IST" name="validateOrderNoConfirmationPage" finished-at="2020-10-22T21:40:42 IST" duration-ms="5214" status="PASS">
+        <test-method signature="imgExistsTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:08:51 IST" name="imgExistsTest" finished-at="2020-10-23T23:08:52 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateOrderNoConfirmationPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:42 IST" name="tearDown" finished-at="2020-10-22T21:40:43 IST" duration-ms="853" status="PASS">
+        </test-method> <!-- imgExistsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:08:52 IST" name="tearDown" finished-at="2020-10-23T23:08:52 IST" duration-ms="785" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateOrderNoConfirmationPage status=SUCCESS method=BookingConfirmationPageTest.validateOrderNoConfirmationPage()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed] output={null}]]]>
+                <![CDATA[[TestResult name=imgExistsTest status=SUCCESS method=LoginPageTest.imgExistsTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hotel.qa.testcases.BookingConfirmationPageTest@41d477ed]" started-at="2020-10-22T21:40:43 IST" name="endReport" finished-at="2020-10-22T21:40:44 IST" duration-ms="1070" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:08:52 IST" name="setUp" finished-at="2020-10-23T23:09:12 IST" duration-ms="20039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:12 IST" name="loginPageTitleTest" finished-at="2020-10-23T23:09:12 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:12 IST" name="tearDown" finished-at="2020-10-23T23:09:13 IST" duration-ms="774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:13 IST" name="setUp" finished-at="2020-10-23T23:09:28 IST" duration-ms="14905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:28 IST" name="loginTest" finished-at="2020-10-23T23:09:45 IST" duration-ms="17001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:45 IST" name="tearDown" finished-at="2020-10-23T23:09:46 IST" duration-ms="934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.freecrm.qa.testcases.LoginPageTest@73a1e9a9]" started-at="2020-10-23T23:09:46 IST" name="endReport" finished-at="2020-10-23T23:09:47 IST" duration-ms="1259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.Hotel.qa.testcases.BookingConfirmationPageTest -->
+      </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
